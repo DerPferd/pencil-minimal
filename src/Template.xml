@@ -1,0 +1,8 @@
+<Template xmlns="http://www.evolus.vn/Namespace/Pencil">
+    <Property name="id">Evolus:HTML:Minimal</Property>
+    <Property name="name">Minimal Just the pages</Property>
+    <Property name="author">Jonathan Beaulieu</Property>
+    <Property name="description">Just the pages</Property>
+
+    <Property name="styleSheet">StyleSheet.xslt</Property>
+</Template>

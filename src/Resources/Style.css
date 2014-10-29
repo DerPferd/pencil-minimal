@@ -1,0 +1,24 @@
+/*
+    place extra stylesheet here
+*/
+
+.ImageContainer img {
+    border: solid 2px #999;
+}
+
+h2 {
+	display: none;
+}
+img {
+	/*width: auto;
+   	height: 100%;*/
+}
+
+.Page {
+	width: 100%;
+	text-align: center;
+}
+
+.ImageContainer {
+	display: inline-block;
+}
