@@ -82,12 +82,12 @@ window.onload = function(){
         alert("Use the arrow keys to navigate backward and forward.");
     }
 }
-window.onkeypress = function(e) {
-    if (e.key == "Right"){
+window.onkeyup = function(e) {
+    if (e.key == "Right" || e.keyIdentifier == "Right"){
         nextPage();
-    } else if (e.key == "Left") {
+    } else if (e.key == "Left" || e.keyIdentifier == "Left") {
         prevPage();
-    } else if (e.key == "Home") {
+    } else if (e.key == "Home" || e.keyIdentifier == "Home") {
         homePage();
     }
 }
